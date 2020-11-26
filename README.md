@@ -11,6 +11,8 @@
 
 > The collection for your resources. Made specifically to work with arrays of objects from your API Responses.
 
+**Vue Collection** | [Collection](https://github.com/eloqjs/collection) | [Nuxt Collection](https://github.com/eloqjs/nuxt-collection)
+
 - [✨ &nbsp;Release Notes](https://collection.eloqjs.com/releases)
 - [📖 &nbsp;Read the Documentation](https://collection.eloqjs.com)
 
