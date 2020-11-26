@@ -279,7 +279,7 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@eloqjs/collection@^1.0.0-alpha.6":
+"@eloqjs/collection@alpha":
   version "1.0.0-alpha.6"
   resolved "https://registry.yarnpkg.com/@eloqjs/collection/-/collection-1.0.0-alpha.6.tgz#6ab497dc968b8ec6135fadaf9c61254745a20bc2"
   integrity sha512-4dG6fLUIwBlrprVe0jIbjrEBmNyZ568BwjhgTk7HzhyCYj4Knlqy2ww03Z2QNayOOd6dmyiAusbg1oip0AP3/g==
