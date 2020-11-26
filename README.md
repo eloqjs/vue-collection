@@ -15,6 +15,7 @@
 - [📖 &nbsp;Read the Documentation](https://collection.eloqjs.com)
 
 ## Features
+
 - Made specifically to work with arrays of objects
 - JSON API specification support
 - Extends the Array class
