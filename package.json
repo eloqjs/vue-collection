@@ -2,18 +2,7 @@
   "name": "@eloqjs/vue-collection",
   "version": "0.0.0-development",
   "description": "The collection for your resources. Made specifically to work with arrays of objects from your API Responses.",
-  "main": "build/index.js",
-  "types": "types/index.d.ts",
-  "files": [
-    "build",
-    "types"
-  ],
-  "scripts": {
-    "build": "rimraf ./build && tsc",
-    "lint": "eslint --ext .ts,.js,.json .",
-    "lint-fix": "yarn lint --fix",
-    "test": "jest"
-  },
+  "homepage": "https://collection.eloqjs.com",
   "repository": "github:eloqjs/vue-collection",
   "keywords": [
     "collection",
@@ -29,9 +18,20 @@
   ],
   "author": "João Pedro Antunes Silva",
   "license": "MIT",
-  "homepage": "https://collection.eloqjs.com",
   "publishConfig": {
     "access": "public"
+  },
+  "main": "build/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "build",
+    "types"
+  ],
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "lint": "eslint --ext .ts,.js,.json .",
+    "lint-fix": "yarn lint --fix",
+    "test": "jest"
   },
   "jest": {
     "clearMocks": true,
@@ -46,6 +46,9 @@
       "/node_modules/",
       "/build/"
     ]
+  },
+  "dependencies": {
+    "@eloqjs/collection": "alpha"
   },
   "devDependencies": {
     "@types/jest": "^26.0.15",
@@ -68,8 +71,5 @@
     "typescript": "^4.1.2",
     "vue": "^2.6.12",
     "vue-template-compiler": "^2.6.12"
-  },
-  "dependencies": {
-    "@eloqjs/collection": "alpha"
   }
 }
