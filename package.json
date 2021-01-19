@@ -49,7 +49,7 @@
     ]
   },
   "dependencies": {
-    "@eloqjs/collection": "alpha"
+    "@eloqjs/collection": "^1.0.0-alpha.7"
   },
   "devDependencies": {
     "@types/jest": "^26.0.15",
